@@ -1,0 +1,61 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/0c/9e/9f/0c9e9fb9bdfc0503335b2a05d067b248.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align:  center;
+    color: black;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background: rgba(203, 185, 185, 0.5);
+    border-radius: 6px;
+    border-width: 5px 5px 5px 5px;
+    border-color: black;
+    border-style: groove;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,5);
+    padding: 40px;
+}
+fieldset{
+    border: 2px sold black;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: rgb(44, 38, 38);
+}
+label{
+    display: block;
+    margin-top: 8px;
+    color: rgb(49, 25, 40);
+}
+inpt,textarea{
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    height: 50px;
+    width: 90px;
+    padding: 8px;
+    background: rgba(73, 18, 18, 0.411);
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+button:hover{
+    background-color: rgb(83, 43, 65);
+}
